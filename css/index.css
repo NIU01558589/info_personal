@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 .oswald-font {
-             font-family: "Oswald", sans-serif;
-             font-optical-sizing: auto;
-             font-weight: 700;
-             font-style: normal;
-         }
+     font-family: "Oswald", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 700;
+     font-style: normal;
+}
 
 body {
     background-image: url("../imgs/marmol-background.jpg");
 }
 
 h1 {
+    font-family: "Oswald", sans-serif;
     font-size: 60px;
     text-align: center;
     transition: transform 0.3s ease;
@@ -26,10 +27,18 @@ h1:hover {
     transform: scale(1.1);
 }
 
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
 nav ul {
     list-style-type: none; /* Elimina los marcadores de lista */
     padding: 0; /* Elimina el relleno de la lista */
     padding-top: 40px;
+    padding-bottom: 40px;
     margin: 0; /* Elimina el margen de la lista */
     text-align: center;
     display: flex; /* Utiliza flexbox para distribuir los elementos */
@@ -55,4 +64,61 @@ nav ul li a:hover {
     filter: blur(5px);
     /* Transición suave para el efecto de desenfoque */
     transition: filter 0.3s ease;
+}
+
+#about_inicio {
+    padding: 70px;
+    background-color: rgba(185, 199, 201, 0.35);
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
+#about_inicio div{
+    background-color: rgba(133, 74, 74, 0);
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+#about_inicio img {
+    height: 500px;
+}
+
+.info_personal_paragrafo {
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+#about_programming {
+    padding: 70px;
+    background-color: rgb(57, 145, 161);
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
+#about_programming div {
+    background-color: rgb(141, 39, 39);
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+footer {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    background-color: rgba(185, 199, 201, 0.35);
 }
