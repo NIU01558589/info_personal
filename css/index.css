@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.oswald-font {
+             font-family: "Oswald", sans-serif;
+             font-optical-sizing: auto;
+             font-weight: 700;
+             font-style: normal;
+         }
+
+body {
+    background-image: url("../imgs/marmol-background.jpg");
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno de la lista */
+    padding-top: 40px;
+    margin: 0; /* Elimina el margen de la lista */
+    text-align: center;
+    display: flex; /* Utiliza flexbox para distribuir los elementos */
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+    color: black; /* Color del texto de los enlaces */
+    font-family: "Roboto", sans-serif; /* Fuente del texto de los enlaces */
+    font-size: 18px; /* Tamaño de fuente de los enlaces */
+    padding: 10px 20px; /* Añade relleno a los enlaces */
+    border-radius: 5px; /* Añade esquinas redondeadas a los enlaces */
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    filter: blur(5px);
+    /* Transición suave para el efecto de desenfoque */
+    transition: filter 0.3s ease;
+}
