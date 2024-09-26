@@ -100,7 +100,7 @@ nav ul li a:hover {
 
 #about_programming {
     padding: 70px;
-    background-color: rgba(57, 145, 161, 0);
+    background-color: rgba(6, 185, 215, 0);
     display: grid;
     column-gap: 5px;
     row-gap: 5px;
@@ -111,11 +111,26 @@ nav ul li a:hover {
 }
 
 #about_programming div {
-    background-color: rgba(178, 164, 164, 0.38);
+    background-color: rgb(178, 164, 164);
     padding: 10px;
     margin: 10px;
     text-align: left;
 }
+
+#about_programming_2 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén en columna */
+    gap: 20px; /* Espacio entre los elementos */
+    justify-content: center;
+    align-items: center;
+}
+
+#about_programming_2 .programming-section {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el video */
+}
+
 
 footer {
     font-family: "Oswald", sans-serif;
@@ -191,10 +206,10 @@ nav ul li a:hover {
     height: 250px;
 }
 
-#enlace_proyecto {
+.enlace_proyecto {
     justify-content: center;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), /* Sombra difusa */
     inset 0 0 15px rgba(255, 255, 255, 0.5); /* Sombra interna */
     border-radius: 15px;
-    background-color: #4CAF50;
+    background-color: rgba(255, 255, 255, 0);
 }
