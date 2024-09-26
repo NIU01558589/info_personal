@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.oswald-font {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-image: url("../imgs/marmol-background.jpg");
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno de la lista */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0; /* Elimina el margen de la lista */
+    text-align: center;
+    display: flex; /* Utiliza flexbox para distribuir los elementos */
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+    color: black; /* Color del texto de los enlaces */
+    font-family: "Roboto", sans-serif; /* Fuente del texto de los enlaces */
+    font-size: 18px; /* Tamaño de fuente de los enlaces */
+    padding: 10px 20px; /* Añade relleno a los enlaces */
+    border-radius: 5px; /* Añade esquinas redondeadas a los enlaces */
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    filter: blur(5px);
+    /* Transición suave para el efecto de desenfoque */
+    transition: filter 0.3s ease;
+}
+
+#about_inicio {
+    padding: 70px;
+    background-color: rgba(185, 199, 201, 0.35);
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
+#about_inicio div{
+    background-color: rgba(133, 74, 74, 0);
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+#about_inicio img {
+    height: 500px;
+}
+
+.info_personal_paragrafo {
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+#about_programming {
+    padding: 70px;
+    background-color: rgba(57, 145, 161, 0);
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
+#about_programming div {
+    background-color: rgba(178, 164, 164, 0.38);
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+footer {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    background-color: rgba(185, 199, 201, 0.35);
+}
+/*SUBBARRA NAVEGACION*/
+
+nav ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 10px; /* Relleno para la barra */
+    margin: 0; /* Elimina el margen de la lista */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos en línea */
+    margin: 0 15px; /* Espaciado entre elementos */
+}
+
+nav ul li a {
+    text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+    color: black; /* Color del texto de los enlaces */
+    font-family: "Roboto", sans-serif; /* Fuente del texto de los enlaces */
+    font-size: 18px; /* Tamaño de fuente de los enlaces */
+    padding: 10px; /* Añade relleno a los enlaces */
+    border-radius: 5px; /* Añade esquinas redondeadas a los enlaces */
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Cambia el color de fondo al pasar el ratón */
+}
+
+/*PARTE DEL GRID*/
+
+#about_programming {
+    display: flex;
+    flex-direction: column; /* O 'row' si deseas que estén en fila */
+    gap: 20px; /* Espaciado entre secciones */
+}
+
+.titulo_proyecto {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+.programming-section {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+}
+
+.programming-section img {
+    max-width: 250px; /* Tamaño máximo de las imágenes */
+    margin-right: 10px; /* Espaciado entre imagen y texto */
+}
+
+.programming-section p {
+    margin: 20px;
+}
+
+.fondo-difuso {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), /* Sombra difusa */
+    inset 0 0 15px rgba(255, 255, 255, 0.5); /* Sombra interna */
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#extension_imagen {
+    width: 250px;
+    height: 250px;
+}
+
+#enlace_proyecto {
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), /* Sombra difusa */
+    inset 0 0 15px rgba(255, 255, 255, 0.5); /* Sombra interna */
+    border-radius: 15px;
+    background-color: #4CAF50;
+}

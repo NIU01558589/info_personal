@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+    <title>Josep Molina Eirin - Inicio</title>
+    <link rel="stylesheet" type="text/css" href="css/projects.css">
+</head>
+<body>
+<h1 class="oswald-font"><a href="#">Josep Molina Eirin</a></h1>
+<nav>
+    <ul>
+        <li>
+            <a class="oswald-font" href="index.html">Sobre Mi</a>
+        </li>
+        <li>
+            <a class="oswald-font" href="#">Mis Proyectos</a>
+        </li>
+        <li>
+            <a  class="oswald-font" href="about_links.html">Enlaces de interes</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Subbarra de navegación -->
+<nav>
+    <ul>
+        <li><a class="oswald-font" href="#easyfitness">EasyFitness</a></li>
+            <li><a class="oswald-font" href="#doors">Doors</a></li>
+        <li><a class="oswald-font" href="#stompers">Stompers</a></li>
+    </ul>
+</nav>
+
+<div id="about_programming">
+    <div class="fondo-difuso titulo_proyecto">
+        <h2 class="oswald-font" id="easyfitness">EasyFitness</h2>
+    </div>
+    <div class="programming-section fondo-difuso">
+        <video width="720" height="480" autoplay loop muted>
+            <source src="video/simulacion_entrenamiento.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+        </video>
+        <p class="oswald-font">Este proyecto nació de la mano de una asignatura de la mencion de Software llamada
+            Laborratorio de Software. En esta asignatura, debemos desarrollar un software propuesto por un compañero de clase en grupos de desarrollo de 8 personas.
+            </br></br>Estos grupos son organizados por el profesor segun nuestras habilidades.
+            En nuestro caso, el proyecto elegido fue una aplicación para Android desarrollada en Java haciendo uso de Android Studio.
+            Esta aplicación se centraba en el registro de rutinas y ejercicios para anotar los ejercicios hechos en nuestras sesiones de gimnasio,
+            </br>Además, disponemos de un apartado de red social, donde ver las rutinas y ejercicios de otros usuarios, y poder utilizarlas.</p>
+    </div>
+    <div class="programming-section fondo-difuso">
+        <p class="oswald-font">En esta imagen podemos ver un ejemplo en pruebas sobre las rutinas guardadas.
+        Este desarrollo duró aproximadamente 6/7 semanas, en el que dividimos los roles segun nuestros puntos fuertes.
+        </br></br>En mi caso, quedé englobado dentro del equipo de Frontend en primera instancia, aunque en nuestras etapas finales, y con tal de llegar
+        a los objetivos mas altos acordados con el profesor, desempeñe las funciones de FullStack Developer.</p>
+        <img src="imgs/rutinas.jpg" alt="Rutinas deportivas de un usuario">
+    </div>
+    <div class="programming-section fondo-difuso">
+        <img src="imgs/login_page.jpg" alt="Pagina de Login">
+        <p class="oswald-font">Aqui tenemos la pagina de Login de nuestra aplicación. Para este servicio, utilizamos una API proporcionada por Firebase, para automatizar además la opcion de recuperación de contraseña.
+        </br>En un principio contamos también con una base de datos que alojaría la universidad, pero finalmente no pudimos obtenerla. Por tanto, tuvimos que buscar soluciones alternativas.</p>
+    </div>
+    <div class="programming-section fondo-difuso">
+        <p class="oswald-font">
+            Aqui es donde entré yo como FullStack. Y es que además de hacer desarrollo BackEnd dentro de la aplicación, configuré la base de datos de nuestro proyecto.
+            Dispongo de una Raspberry Pi 3B+, y en resumidas cuentas me encargue de instalar una base de datos local (MariaDB) con un gestor de Bases de Datos (PHPMyAdmin), la cual era gestionada por una API REST creada por mis compañeros
+            que se ejecutaba mediante SpringBoot.
+            <br/></br>
+            Después, utilizamos DuckDNS con tal de tener un dominio estatico mediante el que acceder via internet a la Raspberry.
+            Finalmente, logramos realizar el guardado de rutinas, ejercicios y la gestión de la red social con este pequeño servidor.
+        </p>
+        <img src="imgs/servidor_conexion.jpg" alt="Conexion a Base de Datos MariaDB">
+    </div>
+    <div class="programming-section fondo-difuso">
+        <p class="oswald-font">
+            El resultado final fue mas que satisfactorio, y nuestros profesores quedaron satisfechos con el rendimiento del equipo.
+            </br> Esta experiencia me ayudó a trabajar en un entorno lo más cercano a producción, gestionados utilizando una metodologia SCRUM.
+            Teniamos unos plazos bien marcados, unos retos a nivel de conocimiento, además de saber trabajar con un equipo, coordinarnos y llegar a dar
+            un producto que, si bien no era completamente funcional, podría bien ser una version pre-release de algo mucho mas grande.
+        </p>
+    </div>
+    <div class="programming-section" id="enlace_proyecto">
+        <h3 class="oswald-font">Link a los archivos del proyecto:</h3>
+        <p class="oswald-font">
+            <a href="https://github.com/OriolMunozZapater/EasyFitness">Enlace GitHub al Proyecto</a>
+        </p>
+    </div>
+</div>
+<!--
+<div>
+    <div class="fondo-difuso titulo_proyecto">
+        <h2 class="oswald-font" id="doors">Doors</h2>
+    </div>
+    <div class="programming-section fondo-difuso">
+        <img src="ruta/a/tu-imagen3.jpg" alt="Descripción de la imagen 3">
+        <p>Texto que describe la imagen 3.</p>
+    </div>
+</div>
+-->
+<!--
+<div>
+    <div class="fondo-difuso titulo_proyecto">
+        <h2 class="oswald-font" id="doors">Doors</h2>
+    </div>
+    <div class="programming-section fondo-difuso">
+        <img src="ruta/a/tu-imagen3.jpg" alt="Descripción de la imagen 3">
+        <p>Texto que describe la imagen 3.</p>
+    </div>
+</div>
+-->
+<footer>
+    <p>Josep Molina Eirin</p>
+</footer>
+</body>
+</html>
