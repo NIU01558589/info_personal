@@ -117,6 +117,20 @@ nav ul li a:hover {
     text-align: left;
 }
 
+#about_programming .programming-section img {
+    max-width: 250px; /* Tamaño máximo de las imágenes */
+    margin-right: 10px; /* Espaciado entre imagen y texto */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para las imágenes */
+}
+
+#about_programming .programming-section video {
+    max-width: 250px; /* Tamaño máximo de las imágenes */
+    margin-right: 10px; /* Espaciado entre imagen y texto */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para las imágenes */
+}
+
 #about_programming_2 {
     padding: 70px;
     display: flex;
@@ -127,8 +141,46 @@ nav ul li a:hover {
 }
 
 #about_programming_2 .programming-section {
+    background-color: rgba(138, 194, 155, 0.87);
     display: flex;
     justify-content: center; /* Centra horizontalmente el video */
+    border-radius: 10px;
+}
+
+#about_programming_3 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén en columna */
+    gap: 20px; /* Espacio entre los elementos */
+    justify-content: center;
+    align-items: center;
+}
+
+#about_programming_3 .programming-section {
+    background-color: rgba(125, 176, 217, 0.87); /* Color de fondo similar a los otros */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), inset 0 0 15px rgba(255, 255, 255, 0.5); /* Sombra */
+}
+
+#about_programming_3 .programming-section img {
+    max-width: 250px; /* Tamaño máximo de las imágenes */
+    margin-right: 10px; /* Espaciado entre imagen y texto */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para las imágenes */
+}
+
+#about_programming_3 .programming-section p {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 20px;
+    line-height: 1.6;
+    text-align: justify;
 }
 
 
